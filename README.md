@@ -68,7 +68,7 @@ python scripts/train.py -K 8
 | 4 | ✅ K04_drop40_s1 | | |
 | 6 | ✅ K06_drop40_s1 | | |
 | 8 | ✅ K08_drop40_s1 | | |
-| 10 | 학습 중 (kang-jun-mo12) | | |
+| 10 | ✅ K10_drop40_s1 | | |
 | 12 | ✅ 기준 모델 | | |
 | 14 | 학습 중 (kang-jun-mo12) | | |
 | 16 | | | |

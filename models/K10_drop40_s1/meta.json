@@ -1,0 +1,35 @@
+{
+ "name": "K10_drop40_s1",
+ "coefficients": 10,
+ "seed": 1,
+ "scene_drop": 0.4,
+ "epochs": 100,
+ "batch": 256,
+ "lr": 0.0003,
+ "best_epoch": 97,
+ "validation": {
+  "ce": 0.03462180570581067,
+  "correct": 0.9957103204642948,
+  "flow": 0.2653872463292857,
+  "flow_other_bev": 0.47413111027069776
+ },
+ "paths": {
+  "windows": 1024,
+  "euler_steps": 8,
+  "end_gap_median": 0.1321436193214659,
+  "end_gap_p95": 1.50623634411682,
+  "best_of_8_median": 0.051539477530818195,
+  "best_of_8_p95": 0.5004271643953763,
+  "mean_of_8_median": 2.135143768880322,
+  "structure_hit": 1.0,
+  "over_limit": 0.4571533203125,
+  "ms_per_plan": 103.53769499924965
+ },
+ "minutes": 145.5,
+ "code_commit": "1f82da59b83868d10c9e1e1293bb2f4c8e2f4807",
+ "labels_sha256": "f6fc99c27fb4f070e40ec3d5448f77250df7fc4e4384e402f42aea0ff226f7a1",
+ "data_sha256": "0db9cbdbb9625d52eaf4c763fc75345aa8196c67601747080deaa7f8b1a8c16b  trajectories.npz\nb471e7497cf38a2940aa37732008f52ecf7e9197ce450f8ad137daf7e63e0cbe  bev_0.npy\neb936a8bc4a1d0654f1dad698abe47c771594ea9a041c21fdf937c95c1613fed  bev_1.npy\naf2b64cc550a16ee7abef96ae524f8a3ef94641e173b29a5c8b9b8cffe6aff98  bev_2.npy\neffbe7af71e5d557ad9ead85b785e020c0791dfe40b0a2c99ddc88ff0576b5fd  bev_3.npy\n556bab3150757fe01c11f2d4cf0030183620727f545a1c2386cbfcc4738dfdd5  ddp_frontend.pt\n",
+ "gpu": "NVIDIA GeForce RTX 5070 Ti",
+ "torch": "2.11.0+cu128",
+ "python": "3.11.9"
+}

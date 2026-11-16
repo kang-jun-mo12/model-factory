@@ -65,7 +65,7 @@ python scripts/train.py -K 8
 
 | K (스플라인 계수) | 시드 1 | 시드 2 | 시드 3 |
 |---|---|---|---|
-| 4 | 학습 중 (kang-jun-mo12) | | |
+| 4 | ✅ K04_drop40_s1 | | |
 | 6 | 학습 중 (kang-jun-mo12) | | |
 | 8 | 학습 중 (kang-jun-mo12) | | |
 | 10 | 학습 중 (kang-jun-mo12) | | |
